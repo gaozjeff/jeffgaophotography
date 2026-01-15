@@ -80,12 +80,9 @@ body {
 -------------------- */
 
 .gallery {
-  margin-left: 260px; /* sidebar + spacing */
-  padding: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  width: calc(100% - 260px);
+  gap: 30px;
 }
 
 /* --------------------
