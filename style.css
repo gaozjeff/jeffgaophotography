@@ -276,3 +276,43 @@ body {
 .work-link:hover {
   color: #111;
 }
+
+/* --------------------
+   Static pages (About / Contact)
+-------------------- */
+
+.page-content {
+  margin-left: 260px;
+  padding: 40px;
+  max-width: 700px;
+}
+
+.page-content h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.page-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.page-content a {
+  color: #111;
+  text-decoration: none;
+}
+
+.page-content a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .page-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
