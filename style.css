@@ -4,7 +4,7 @@
 
 .site-container {
   display: flex;
-  max-width: 12000px;      /* controls how wide the site can get */
+  max-width: 1200px;      /* controls how wide the site can get */
   margin: 0 auto;         /* centers on large screens */
   padding: 40px 20px;     /* breathing room on small screens */
   gap: 60px;
@@ -23,7 +23,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   color: #111;
   background: #fff;
-  display: flex;
 }
 
 /* --------------------
@@ -33,8 +32,9 @@ body {
 .sidebar {
   width: 220px;
   padding: 40px 30px;
-  position: fixed;
-  height: 100vh;
+  flex-shrink: 0;
+  position: sticky;
+  top: 40px;
 }
 
 .site-title {
@@ -183,7 +183,6 @@ body {
 -------------------- */
 
 .album-page {
-  margin-left: 260px;
   padding: 40px;
   width: calc(100% - 260px);
 }
@@ -290,7 +289,6 @@ body {
 -------------------- */
 
 .page-content {
-  margin-left: 260px;
   padding: 40px;
   max-width: 700px;
 }
