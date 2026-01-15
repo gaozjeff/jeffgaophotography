@@ -153,10 +153,9 @@ body {
    Responsive (mobile)
 -------------------- */
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .gallery {
     grid-template-columns: 1fr;
-    gap: 30px;
   }
 }
 
