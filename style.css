@@ -4,7 +4,7 @@
 
 .site-container {
   display: flex;
-  max-width: 1200px;      /* controls how wide the site can get */
+  max-width: 120px;      /* controls how wide the site can get */
   margin: 0 auto;         /* centers on large screens */
   padding: 40px 20px;     /* breathing room on small screens */
   gap: 60px;
